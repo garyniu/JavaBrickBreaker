@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Powerup
+comment0.text=\r\n\ Powerup\ actor,\ called\ by\ ball\ to\ give\ player\ powerups\ at\ random\r\n
+comment1.params=width\ height
+comment1.target=Powerup(int,\ int)
+comment2.params=
+comment2.target=int\ returnPowerUpType()
+comment3.params=
+comment3.target=void\ act()
+comment4.params=type\ width\ height
+comment4.target=greenfoot.GreenfootImage\ drawPowerUp(int,\ int,\ int)
+numComments=5

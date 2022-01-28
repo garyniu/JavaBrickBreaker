@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Button
+comment0.text=\r\n\ Button\ actor,\ used\ in\ menus\ to\ redirect\ to\ another\ world\r\n
+comment1.params=width\ height\ textToDisplay
+comment1.target=Button(float,\ float,\ java.lang.String)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=boolean\ getIfSelected()
+comment4.params=width\ height\ c\ textToDisplay
+comment4.target=greenfoot.GreenfootImage\ drawButton(int,\ int,\ greenfoot.Color,\ java.lang.String)
+numComments=5

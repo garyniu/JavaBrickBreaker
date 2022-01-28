@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=PregameWorld
+comment0.text=\r\n\ A\ world\ that\ is\ called\ after\ either\ MainMenuWorld\ or\ MainMenuResolutionWorld\r\n\ Pregame\ menu\ that\ is\ called\ before\ the\ main\ game\ to\ chose\ game\ difficulty\r\n
+comment1.params=width\ height\ bgmusic\ gamemusicvol
+comment1.target=PregameWorld(int,\ int,\ greenfoot.GreenfootSound,\ int)
+comment2.params=
+comment2.target=void\ stopped()
+comment3.params=
+comment3.target=void\ started()
+comment4.params=
+comment4.target=void\ act()
+numComments=5

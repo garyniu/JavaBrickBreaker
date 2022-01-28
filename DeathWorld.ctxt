@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=DeathWorld
+comment0.text=\r\n\ A\ world\ that\ is\ called\ after\ the\ user\ runs\ out\ of\ lives.\r\n\ This\ world\ includes\ an\ image\ and\ the\ users\ score,\ right\ before\ going\ to\ the\ highscore\ world.\r\n
+comment1.params=width\ height\ score\ BGmusic\ gamemusicvol
+comment1.target=DeathWorld(int,\ int,\ int,\ int,\ int)
+comment2.params=
+comment2.target=void\ act()
+numComments=3

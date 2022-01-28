@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=SuccessWorld
+comment0.text=\r\n\ Success\ world\ is\ called\ from\ gameworld\ after\ beating\ all\ levels\r\n\ calls\ a\ simple\ background\ and\ displays\ the\ users\ score,\ before\ going\ to\ highscore\ world.\r\n
+comment1.params=width\ height\ score\ BGmusic\ gamemusicvol
+comment1.target=SuccessWorld(int,\ int,\ int,\ int,\ int)
+comment2.params=
+comment2.target=void\ act()
+numComments=3

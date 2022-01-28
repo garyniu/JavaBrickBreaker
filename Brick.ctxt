@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Brick
+comment0.text=\r\n\ brick\ actor,\ for\ the\ ball\ to\ interact\ and\ destory.\r\n
+comment1.params=brickType\ width\ height
+comment1.target=Brick(int,\ int,\ int)
+comment2.params=
+comment2.target=int\ getBrickHP()
+comment3.params=
+comment3.target=int\ getScore()
+comment4.params=
+comment4.target=void\ act()
+comment5.params=col\ WIDTH\ HEIGHT
+comment5.target=greenfoot.GreenfootImage\ drawBrick(int,\ int,\ int)
+numComments=6

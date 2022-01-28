@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=TutorialWorld
+comment0.text=\r\n\ world\ called\ on\ by\ either\ mainmenu\ worlds.\r\n\ displays\ a\ simple\ tutorial\ on\ how\ to\ play\ the\ game.\r\n
+comment1.params=width\ height\ bgmusic\ gamemusicvol
+comment1.target=TutorialWorld(int,\ int,\ greenfoot.GreenfootSound,\ int)
+comment2.params=
+comment2.target=void\ stopped()
+comment3.params=
+comment3.target=void\ started()
+comment4.params=
+comment4.target=void\ act()
+numComments=5

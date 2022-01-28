@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\r\n\ player\ paddle,\ to\ deflect\ ball\ into\ bricks,\ called\ by\ the\ gameworld\r\n
+comment1.params=gametype\ width\ height
+comment1.target=Player(int,\ int,\ int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=height
+comment3.target=greenfoot.GreenfootImage\ drawPlayer(int)
+comment4.params=
+comment4.target=void\ keyPress()
+numComments=5

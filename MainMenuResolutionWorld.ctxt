@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=MainMenuResolutionWorld
+comment0.text=\r\n\ This\ world\ is\ called\ as\ an\ alternate\ to\ MainMenuWorld.\r\n\ This\ menu\ is\ nearly\ identical\ to\ MainMenuWorld,\ but\ is\ called\ for\ different\ resolutions\r\n
+comment1.params=width\ height\ bgmusic\ BGmusicvol\ gamemusicvol
+comment1.target=MainMenuResolutionWorld(int,\ int,\ greenfoot.GreenfootSound,\ int,\ int)
+comment2.params=
+comment2.target=void\ stopped()
+comment3.params=
+comment3.target=void\ started()
+comment4.params=
+comment4.target=void\ act()
+numComments=5

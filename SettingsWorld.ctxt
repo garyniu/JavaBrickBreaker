@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=SettingsWorld
+comment0.text=\r\n\ Settings\ world\ is\ called\ from\ either\ mainmenu\ worlds.\r\n\ This\ allows\ you\ to\ change\ game\ resolution\ and\ volume\ settings,\ then\ returns\ you\ to\ mainmenu.\r\n
+comment1.params=width\ height\ bgmusic\ gamemusicvol
+comment1.target=SettingsWorld(int,\ int,\ greenfoot.GreenfootSound,\ int)
+comment2.params=
+comment2.target=void\ stopped()
+comment3.params=
+comment3.target=void\ started()
+comment4.params=
+comment4.target=void\ act()
+numComments=5

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=HighScoreWorld
+comment0.text=\r\n\ A\ world\ that\ is\ called\ after\ sucessworld\ or\ deathworld.\r\n\ This\ world\ creates\ and\ reads\ from\ a\ file\ containing\ highscores\ from\ other\ plays,\ and\ displays\ them.\r\n
+comment1.params=width\ height\ score\ BGmusic\ gamemusicvol
+comment1.target=HighScoreWorld(int,\ int,\ int,\ int,\ int)
+comment2.params=
+comment2.target=void\ act()
+numComments=3

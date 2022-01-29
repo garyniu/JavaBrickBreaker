@@ -26,7 +26,7 @@ public class Powerup extends Actor
     public void act()
     {
         //move the actor down
-        setLocation( getX(), getY() + 2);
+        setLocation(getX(), getY() + (int)(WIDTH / 300));
         
         //check if the powerup is at the edge of the world, and remove
         if (isAtEdge()){

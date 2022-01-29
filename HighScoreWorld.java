@@ -34,14 +34,8 @@ public class HighScoreWorld extends World
         //try creating a file for highscores, but catch if there are read/write problems
         try {
             File highScoreStorage = new File("highscores.txt");
-            
-            if (highScoreStorage.createNewFile()) {
-                System.out.println("created: " + highScoreStorage.getName());
-            } else {
-                System.out.println("already exists");
-            }
+            highScoreStorage.createNewFile();
         } catch (IOException e) {
-            System.out.println("error");
             e.printStackTrace();
         }        
         
@@ -56,14 +50,12 @@ public class HighScoreWorld extends World
             int i = 0;
             while(scanner.hasNextInt()){
                 highscores[i++] = scanner.nextInt();
-                
             }
             
             scanner = new Scanner(new File("highscores.txt"));
             int temp = 0;
             while(scanner.hasNextInt()){
-                oldhighscores[temp++] = scanner.nextInt();
-                
+                oldhighscores[temp++] = scanner.nextInt();                
             }
             
             //insert new score and sort both arrays
@@ -72,7 +64,6 @@ public class HighScoreWorld extends World
             Arrays.sort(oldhighscores);
             
         } catch (Exception e){
-            System.out.println("error 2");
             e.printStackTrace();
         }
         
@@ -86,14 +77,10 @@ public class HighScoreWorld extends World
                     myWriter.write(Array.get(highscores, x) + "\n");
                 }
             }
-            
             myWriter.close();
-            System.out.println("wrote to the file");
         } catch (IOException e) {
-            System.out.println("error");
             e.printStackTrace();
         }
-        
         
         //setting and scaling background image
         GreenfootImage backgroundImage = new GreenfootImage("pregameBG.png");

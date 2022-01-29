@@ -7,20 +7,21 @@ import java.util.List;
 public class Player extends Actor
 {
     //instance variables
-    private int PaddleWidth, PaddleSpeed, WIDTH, HEIGHT, powerupSoundIndex;
+    private int PaddleWidth, PaddleSpeed; 
+    private int WIDTH, HEIGHT, powerupSoundIndex;
     private int powerupTemp, gameType, timer = 0, preventFire = 0;
     private GreenfootSound powerupSound[]; 
     private boolean hasLaser = false;
     
     public Player(int gametype, int width, int height){
-        //draw the player
-        setImage(drawPlayer(height));
-        
         //setting entered varaibles into the instance variables
         PaddleWidth = (int)(width / 6);
         gameType = gametype;
         WIDTH = width;
         HEIGHT = height;
+        
+        //draw the player
+        setImage(drawPlayer(height));
         
         //change paddle speed depending on gamemode
         if (gameType == 0){

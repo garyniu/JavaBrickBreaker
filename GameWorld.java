@@ -13,7 +13,7 @@ public class GameWorld extends World
 
     //integer variables for game, seperated by use case
     private int WIDTH, HEIGHT; 
-    private int lives = 3, level = 0, score = 0, finalScore, gameType;
+    private int lives = 3, level = 0, score = 0, gameType;
     private int BGmusicmenu, gameMusicVol, delay = 0, timer = 0, backgroundNum = Greenfoot.getRandomNumber(3);
 
     //declaring actors that are going to be called regularly
@@ -50,9 +50,6 @@ public class GameWorld extends World
         //and starts playing on loop
         GameMusic.setVolume(gameMusicVol);
         GameMusic.playLoop();
-        
-        //test code
-        System.out.println(gameType + " out | " + gametype  + " in");
         
         //sets the background from the background method, 
         //method used to keep image consistent
@@ -143,13 +140,8 @@ public class GameWorld extends World
             
             //prevent lives from equalling 0, so score wont end up as zero when you die
             lives = 1;
-            int score = (finalScore * lives) - (int)(Math.sqrt(timer / 60 / 10));
-                        
-            //redundant, but here just in case for the edge cases
-            if (score < 0){
-                score = 0;
-            }
-                        
+            score = (score * lives);
+            
             //if the level count is 8 or 5, go to the new world
             if (level == 8 || (gameType == 1 && level == 5)){
                 Greenfoot.setWorld(new SuccessWorld(WIDTH, HEIGHT, score, BGmusicmenu, gameMusicVol));
@@ -172,7 +164,6 @@ public class GameWorld extends World
         if (ballArr.isEmpty() || ((timer / 60) == 180 && gameType == 1)){
             //remove a live and add to the final score for later calculatiosn
             lives--; 
-            finalScore += score; 
             
             //if timer is greater than 180, remove balls
             if ((timer / 60) >= 180){

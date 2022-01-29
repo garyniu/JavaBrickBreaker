@@ -44,7 +44,7 @@ public class Brick extends Actor
         Laser l = (Laser)getOneIntersectingObject(Laser.class);
         
         //if the brick has no remaining hp, remove it
-        if (brickHP == 0){
+        if (brickHP <= 0){
             getWorld().removeObject(this);
             return;
         }
